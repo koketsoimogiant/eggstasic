@@ -1,4 +1,4 @@
-S<?php
+<?php
 include 'session.php';
 
 $privileges = $session_usertype;
