@@ -5,56 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- 3 meta tags first; any content *after* these tags -->
-
-	<title>FAQs | Goodyear Res</title>
-
+	<title>FAQs | RR EGGS TASIC</title>
+   <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet"/>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 	<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<style type="text/css">
-		body{
-			background-color: #FF6D00;
+		body {
+			background: whitesmoke;
+			color: initial;
 		}
 
-		#link {
-			color: #FF6D00;
+		.container{
+			background: rgba(0,0,0,0.3);
+			margin-top: 20px;
+			margin-bottom: 20px;
 		}
 	</style>
 </head>
 <body>
-	<header>
-		<div id="top-div" style="color: black; height: 60px; width: 100%; font-size: 13.3333px;">
-			<form>
-				<input type="text" placeholder="SEARCH" style="border-radius: 5px;">
-				<input type="submit" value="SEARCH" style="border-radius: 5px;">
-			</form>
-		</div>
-
-		<div id="green-bar"></div>
-
-		<div id="image-src" style="position: relative; display: block;">
-			<img src="Images/goodyear_icon.jpg" alt="goodyear_icon">
-			<div id="numPeople">
-				<p>number of students still on campus</p>
-				<h1>14</h1>
-			</div>
-		</div>
-		<div id="body-nav" style="height: 80px;">
-		<ul>
-			<li><a href="index.php">HOME</a></li>
-			<li><a href="about.php">ABOUT</a></li>
-			<li><a href="faqs.php">FAQs</a></li>
-			<li><a href="contactus.php">CONTACT US</a></li>
-		</ul>
-
-		</div>
-	</header>
-
-	<div id="lightblue-bar"></div>
-
+	<div class="jumbotron text-center">
+		<h1>RR EGGS TASIC</h1><hr>
+		<button class="btn btn-success btn-lg" onclick="document.location.href='login.php'"><span class="glyphicon glyphicon-home"></span>My Profile</button>
+		<button class="btn btn-primary btn-lg" onclick="document.location.href='faqs.php'"><span class="glyphicon glyphicon-user"></span> About us</button>
+		<button class="btn btn-success btn-lg" onclick="document.location.href='faqs.php'"><span class="glyphicon glyphicon-question-sign"></span> FAQS</button>
+		<button class="btn btn-danger btn-lg" onclick="document.location.href='faqs.php'"><span class="glyphicon glyphicon-envelope"></span> Contact us</button>
+	</div>
 	<div class="container">
 
 		<div class="page-header">
