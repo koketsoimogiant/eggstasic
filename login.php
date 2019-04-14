@@ -125,7 +125,7 @@ if(isset($_SESSION['login_user'])){
                             </form>
                             <?php
                                 if (isset($_GET['err1'])) {
-                                    echo '<h4 style="color: red;">Oops, incorrect credentials, please try again carefully, <a href="forgetpassword.php">Help me out</a></h4>';
+                                    echo '<h4 style="color: red;">Oops, incorrect credentials, please try again carefully, <a href="forgottenpassword.php">Help me out</a></h4>';
                                 }
                                 if (isset($_GET['set'])) {
                                     echo '<h4 style="color: white;">New user has been registered... you can now login</h4>';

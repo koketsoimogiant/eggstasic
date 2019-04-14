@@ -155,7 +155,7 @@ $privileges = $session_usertype;
 
             <?php endif ?>
 
-            <?php if ($session_usertype === '62608e08adc29a8d6dbc9754e659f125'): ?>
+            <?php if ($session_usertype === $user_client): ?>
 
             <button class="btn btn-warning block" onclick="document.location.href='make_an_order.php'">Order Now</button>
             <button class="btn btn-default block" onclick="document.location.href='track.php'">Track my<br>orders</button>

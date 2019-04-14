@@ -94,7 +94,6 @@
                                 Middle Name: <input type="text" name="middlename" id="middlename" title="Middle name" class="dabox">
                                 Surname: <input type="text" name="surname" title="Surname" id="surname" class="dabox" required>
                                 ID Number: <input type="text" name="idnumber" id="idnumber" title="ID Number" class="dabox" required>
-                                <input type="checkbox" name="saidCB">SA Identity Number <br><br>
                                 Phone Number: <input type="text" name="phonenumber" id="phonenumber" title="Phone Number Format: 000 000 0000" class="dabox"required>
                                 Email Address: <input type="text" name="email" id="email" title="Email Address" class="dabox" required>
                                 Password: <input id="pass1" type="password" name="password" id="password" title="enter your password" class="dabox" required>
