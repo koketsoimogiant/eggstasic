@@ -119,7 +119,7 @@
 
 	<footer>
 		<div id="bottom">
-			Vaal Student Housing. &copy; Copyright 2017 | Terms and Conditions Apply
+			<h5>RR EGGS TASIC &copy; Copyright 2018, All rights reserved</h5>
 		</div>
 	</footer>
 </body>

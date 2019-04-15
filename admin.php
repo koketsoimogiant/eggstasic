@@ -144,7 +144,7 @@ $privileges = $session_usertype;
         </div><br/><br/>
         <hr>
         <div well alert-success well-lg style="background-color: #242424; text-align: center;">
-            <?php if ($session_usertype === '21232f297a57a5a743894a0e4a801fc3'): ?>
+            <?php if ($session_usertype === $user_admin): ?>
 
             <button class="btn btn-warning block" onclick="document.location.href='make_an_order.php'">Check <br>orders</button>
             <button class="btn btn-default block" onclick="document.location.href='track.php'">Track <br>orders</button>
