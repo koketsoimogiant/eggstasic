@@ -1,7 +1,7 @@
 <?php
 	$db_name = "eggstasic";
-	$mysql_username = "root";
-	$mysql_password = "";
+	$mysql_username = "koketso";
+	$mysql_password = "koketso";
 	$server_name = "localhost";
 	$host="localhost";
 	$port="3306";
